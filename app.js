@@ -120,4 +120,4 @@ app.get('/api/transactions', function (request, response) {
   });
 });
 
-app.listen(process.ENV.PORT || 5000);
+app.listen(process.env.PORT || 5000);
